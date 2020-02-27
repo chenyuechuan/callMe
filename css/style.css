@@ -1,0 +1,71 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.page-wrapper{
+    width: 100%;
+    height: 100%;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sorry-box{
+    width: 100%;
+    height: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dddddd;
+}
+.page-wrapper .sorry-box .sorry-image{
+    width: 60%;
+    height: 50vw;
+    background-image: url(../images/sorry.png);
+    background-color: #ffffff;
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 20px;
+    box-shadow: 15px 0 20px #666666;
+    /*transform: skewX(-10deg) rotateX(20deg);*/
+    border: 1px solid #999999;
+    border-radius: 10px;
+/*skewX(-10deg)*/
+}
+.top-tip{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.second-tip{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.btn-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn-wrapper .tel-btn{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0 0 10px #666666;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
